@@ -1,0 +1,18 @@
+@media (max-width: 1100px) {
+    .bg-header h1{
+    font-size: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .bg-header h1{
+    font-size: 24px;
+    }
+}
+@media (max-width: 412px) {
+    .bg-header h1{
+    font-size: 21px;
+    height: 100px;
+    }
+}
+
+

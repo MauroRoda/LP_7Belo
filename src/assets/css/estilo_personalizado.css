@@ -1,0 +1,43 @@
+
+
+
+
+.header{
+    border: 4px solid red;  
+}
+
+.font_fredoka{
+    font-family: 'Fredoka One', cursive;
+}
+
+.bg-header{
+    background-image: url(../img/background_header.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-header h1{
+    color: white;
+    font-size: 60px;
+    padding: auto;
+}
+
+.img_principal{
+    background-image: url(../img/img_principal.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 526px;
+    height: 486px;
+    margin-top: -42px;
+}
+
+.conteudo_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
