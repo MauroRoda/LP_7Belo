@@ -30,7 +30,8 @@
   /**
    * Menu de rolagem para testemunhas
    */
-/*   new Swiper('.testimonials-slider', {
+  /* ***************** NAO ESTA FUNCIONANDO APÒS COLOCAR NO ANGUALR */
+  /* new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -87,7 +88,7 @@ function crialinha(usuario){
 
 }
 
-function main(){
+/* function main(){
 let Api_testemunhos = fazGet("https://gorest.co.in/public/v2/comments");
 let testemunhos = JSON.parse(Api_testemunhos);
 console.log("Testemunhos")
@@ -100,3 +101,4 @@ let tabela = document.getElementById("")
 
 
 main()
+ */

@@ -107,7 +107,7 @@ h1, h2, h3 {
 
 
 /*--------------------------------------------------------------
-# Hero Section
+--------------- Titulo principal
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -162,7 +162,7 @@ h1, h2, h3 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
+------------ General
 --------------------------------------------------------------*/
 section {
   overflow: hidden;
@@ -311,7 +311,7 @@ section {
   background-color: rgba(255, 255, 255, 0.4);
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1acc8d;
+  background-color: #14eea1;
 }
 @media (min-width: 1024px) {
   .testimonials {
@@ -326,7 +326,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Contact
+---------- contatos -------
 --------------------------------------------------------------*/
 
 .contact .form_e-mail .form-group {
