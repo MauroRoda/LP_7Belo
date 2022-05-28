@@ -90,16 +90,43 @@ function main(){
 let data = fazGet("https://gorest.co.in/public/v2/comments");
 let comments = JSON.parse(data);
 
-let person1 = comments[0];
-let person2 = comments[1];
-let person3 = comments[2];
-let person4 = comments[3];
+/**
+   * comentario 1
+   */
+  let person1 = comments[1];
+  nome_com1 = person1.name;
+  Tx_com1 = person1.body;
+  console.log("Sou a " + nome_com1);
+  console.log("Meu comentario é " + Tx_com1);
+
+/**
+   * comentario 2
+   */
+ let person2 = comments[2];
+ nome_com2 = person2.name;
+ Tx_com2 = person2.body;
+ console.log("Sou a " + nome_com2);
+ console.log("Meu comentario é " + Tx_com2);
+
+/**
+   * comentario 3
+   */
+ let person3 = comments[3];
+ nome_com3 = person3.name;
+ Tx_com3 = person3.body;
+ console.log("Sou a " + nome_com3);
+ console.log("Meu comentario é " + Tx_com3);
+
+/**
+   * comentario 4
+   */
+ let person4 = comments[4];
+ nome_com4 = person4.name;
+ Tx_com4 = person4.body;
+ console.log("Sou a " + nome_com4);
+ console.log("Meu comentario é " + Tx_com4);
 
 
-console.log(person1);
-console.log(person2);
-console.log(person3);
-console.log(person4);
 
 }
 
