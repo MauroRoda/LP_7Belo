@@ -66,10 +66,10 @@
    */
 function inscricao_cliente() {
 
-  let nome = document.getElementById("nome").value
+  let name = document.getElementById("name").value
   let email = document.getElementById("email").value
 
-  window.alert("Parabens "+ nome +"!! Recebemos sua inscrição, agoara você ficará por dentro de todas as novidades");
+  window.alert("Parabens "+ name +"!! Recebemos sua inscrição, agoara você ficará por dentro de todas as novidades");
  
 }
 
@@ -84,21 +84,24 @@ function inscricao_cliente() {
   return request.responseText
 }
 
-function crialinha(usuario){
+
+
+function main(){
+let data = fazGet("https://gorest.co.in/public/v2/comments");
+let comments = JSON.parse(data);
+
+let person1 = comments[0];
+let person2 = comments[1];
+let person3 = comments[2];
+let person4 = comments[3];
+
+
+console.log(person1);
+console.log(person2);
+console.log(person3);
+console.log(person4);
 
 }
 
-/* function main(){
-let Api_testemunhos = fazGet("https://gorest.co.in/public/v2/comments");
-let testemunhos = JSON.parse(Api_testemunhos);
-console.log("Testemunhos")
-console.log(testemunhos)
-
-let tabela = document.getElementById("")
-
-
-}
-
-
+ 
 main()
- */
