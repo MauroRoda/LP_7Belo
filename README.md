@@ -1,6 +1,8 @@
 # Projeto de Landing Page da Bala 7Belo, criado com auxilio do Angular e bootstrap.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+![header](https://github.com/MauroRoda/LP_7Belo/blob/main/src/assets/img/img_7belo/img/Desktop%20-%201.png)
+
+> Status: Developing ⚠️
 
 ## Metodo para desenvolvimento do projeto.
 
