@@ -2,7 +2,7 @@
 
 
 
-![header](./src/assets/img/img_7belo/img/img_apres.svg)
+![gif-apresenta](../LP_7Belo/src/assets/gif/gif-apresenta.gif)
 
 > Status: Em desenvolvimento ⚠️
 
