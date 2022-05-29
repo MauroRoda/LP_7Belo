@@ -1,4 +1,4 @@
-# Projeto de Landing Page da Bala 7Belo.
+# Projeto de Landing Page da Bala 7Belo, desenvolvida no Angular.
 
 
 
