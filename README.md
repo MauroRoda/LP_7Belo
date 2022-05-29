@@ -1,8 +1,8 @@
-# LP7Belo
+# Projeto de Landing Page da Bala 7Belo, criado com auxilio do Angular e bootstrap.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
-## Development server
+## Metodo para desenvolvimento do projeto.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
