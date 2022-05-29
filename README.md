@@ -8,10 +8,11 @@
 
 + Figma : https://www.figma.com/file/9HjNm0lhWimvF0T6jcCrED/Untitled?node-id=0%3A1
 
-## Servidor de desenvolvimento
-
-Execute `ng serve` para um servidor dev. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
-
+## Pré-requisitos
+- Angular
+- Bootstrap
+- Node.js
+- VsCode
 
 ## Metodo utilizado no projeto.
 
@@ -21,18 +22,14 @@ Execute `ng serve` para um servidor dev. Navegue até `http://localhost:4200/`. 
  + 4° Estilizar a pagina com o CSS.
  + 5° Incluir recurso para animação no carregamento da tela com (aos).
  + 6° Incluir consumo da API para buscar os comentarios
-    - 
-    - 
  + 7° Incluir consumo de API para a mensagem de agradecimento se o cadastro for concluido
- +
- +
  + 8° Validar formulario de inscrição com Angular Form
  
 
 ## Como Abrir o projeto:
 
-1) 
-2) 
-3) 
-4) 
-5) 
+1) Acesse o projeto pelo VSCode
+2) Pelo terminal abra o projeto, cmando (cd "nome do projeto")
+3) Execute o servidor com o comando (ng serve)
+4) Abra o navegador e insira a url ( http://localhost:4200/ )
+5) Se divirta e navegue pela Landing Page.
