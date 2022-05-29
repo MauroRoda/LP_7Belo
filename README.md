@@ -6,14 +6,14 @@
 
 ## Metodo utilizado para desenvolvimento do projeto.
 
- + 1° Criar todo a estrutura do design e textos da pagina na ferramenta Figma.
+ + 1° Criar todo a estrutura do design e textos da pagina na ferramenta Figma (imagem acima).
  + 2° Criar projeto no Angular.
  + 3° Criar a estrutura do codigo html.
  + 4° Estilizar a pagina com o CSS.
  + 5° Incluir recurso para animação no carregamento da tela com (aos).
- + 6° Incluir consumo de API para os comentarios
-    - criar 'testemunho.services';
-    - proximo passo
+ + 6° Incluir consumo da API para buscar os comentarios
+    - 
+    - 
  + 7° Incluir consumo de API para a mensagem de agradecimento se o cadastro for concluido
  +
  +
