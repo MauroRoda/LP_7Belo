@@ -2,7 +2,7 @@
 
 
 
-![gif-apresenta](../LP_7Belo/src/assets/gif/gif-apresenta.gif)
+![gif-apresenta](https://github.com/MauroRoda/LP_7Belo/blob/main/src/assets/gif/gif-apresenta.gif)
 
 > Status: Em desenvolvimento ⚠️
 
