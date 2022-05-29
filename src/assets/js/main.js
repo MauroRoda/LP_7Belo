@@ -2,30 +2,8 @@
 (function() {
   "use strict";
 
-  /**
-   * função para auxiliar o seletor
-   */
-  const select = (el, all = false) => {
-    el = el.trim()
-    if (all) {
-      return [...document.querySelectorAll(el)]
-    } else {
-      return document.querySelector(el)
-    }
-  }
-
- 
   
-  /**
-   * Demonstra o carregamento da pagina
-   */
-  let preloader = select('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove()
-    });
-  }
-
+  
   
   /**
    * Menu de rolagem para testemunhas
@@ -84,8 +62,6 @@ function inscricao_cliente() {
   return request.responseText
 }
 
-
-
 function main(){
 let data = fazGet("https://gorest.co.in/public/v2/comments");
 let comments = JSON.parse(data);
@@ -96,8 +72,10 @@ let comments = JSON.parse(data);
   let person1 = comments[1];
   nome_com1 = person1.name;
   Tx_com1 = person1.body;
-  console.log("Sou a " + nome_com1);
+  console.log("Sooooooou a " + nome_com1);
   console.log("Meu comentario é " + Tx_com1);
+ 
+  /* document.getElementById("ID_person1").innerHTML = nome_com1;  */
 
 /**
    * comentario 2
