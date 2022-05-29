@@ -14,12 +14,12 @@ export class TestemunhoService {
     return this.httpClient.get<ITestemunho[]>(`${API_PATH}comments`).toPromise();
   }
 
-  obterPorId(id: number){
-    return this.httpClient.get<ITestemunho>(`${API_PATH}comments/${id}`).toPromise();
-  }
+  // obterPorId(id: number){
+  //   return this.httpClient.get<ITestemunho>(`${API_PATH}comments/${id}`).toPromise();
+  // }
 
-  obterSomenteBody(body: string){
-    return this.httpClient.get<ITestemunho>(`${API_PATH}comments/${body}`).toPromise();
-  }
+  // obterSomenteBody(body: string){
+  //   return this.httpClient.get<ITestemunho>(`${API_PATH}comments/${body}`).toPromise();
+  // }
 
 }

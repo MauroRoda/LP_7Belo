@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TestemunhoService } from './testemunho.service';
+import { ITestemunho } from './ITestemunhos'; 
 
 @Component({
   selector: 'app-root',
@@ -8,26 +9,23 @@ import { TestemunhoService } from './testemunho.service';
 })
 export class AppComponent {
   title = 'LP_7Belo';
+  testemunhos = [] as (Array<ITestemunho> | undefined);
 
   constructor(private testemunhoService: TestemunhoService)
   {}
 
-/* Obter apenas um objeto do Array, pelo id */
-  obterSomenteUm(){
-    this.testemunhoService.obterPorId(2)
-      .then(testemunho => console.log(testemunho))
+  ngOnInit() {
+    this.obterTodos();
+  }
+
+/* Obter todos */
+  obterTodos(){
+    this.testemunhoService.obterTodos()
+      .then(dados => {
+        dados = dados?.slice(0,4)
+        this.testemunhos = dados
+      })
       .catch(error => console.log(error));
   }
-/* Obter apenas o NOME d objeto selecionado pelo id */
-  obterSomenteNome(){
-    this.testemunhoService.obterPorId(2)
-      .then(testemunho => console.log(testemunho?.name))
-      .catch(error => console.log(error));
-  }
-  /* Obter apenas o NOME d objeto selecionado pelo id */
-  obterSomenteBody(){
-    this.testemunhoService.obterPorId(2)
-      .then(testemunho => console.log(testemunho?.body))
-      .catch(error => console.log(error));
-  }
+
 }
