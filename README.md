@@ -1,6 +1,7 @@
 # Projeto de Landing Page da Bala 7Belo, criado com auxilio do Angular e bootstrap.
 
-![header](https://github.com/MauroRoda/LP_7Belo/blob/main/src/assets/img/img_7belo/img/img_apres.svg)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/96953421/170888666-0dbc0d62-b79c-441f-a733-e860ca77c624.gif)
+
 
 > Status: Em desenvolvimento ⚠️
 
