@@ -6,11 +6,11 @@
 
 ## Metodo utilizado para desenvolvimento do projeto.
 
- 1° Criar todo a estrutura do design e textos da pagina na ferramenta Figma.
- 2° Criar projeto no Angular.
- 3° Criar a estrutura do codigo html.
- 4° Estilizar a pagina com o CSS.
- 5° 
+ + 1° Criar todo a estrutura do design e textos da pagina na ferramenta Figma.
+ + 2° Criar projeto no Angular.
+ + 3° Criar a estrutura do codigo html.
+ + 4° Estilizar a pagina com o CSS.
+ + 5° 
  
 
 ## Code scaffolding
