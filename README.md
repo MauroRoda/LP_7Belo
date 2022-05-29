@@ -10,24 +10,15 @@
  + 2° Criar projeto no Angular.
  + 3° Criar a estrutura do codigo html.
  + 4° Estilizar a pagina com o CSS.
- + 5° 
+ + 5° Incluir recurso para animação no carregamento da tela com (aos).
+ + 6° Incluir consumo de API para os comentarios
+    - criar 'testemunho.services';
+    - proximo passo
+ + 7° Incluir consumo de API para a mensagem de agradecimento se o cadastro for concluido
+ +
+ +
+ + 8° Validar formulario de inscrição com Angular Form
  
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Como Abrir o projeto:
 
