@@ -1,4 +1,4 @@
-# Projeto de Landing Page da Bala 7Belo, criado com auxilio do Angular e bootstrap.
+# Projeto de Landing Page da Bala 7Belo.
 
 
 
