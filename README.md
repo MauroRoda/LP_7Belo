@@ -1,12 +1,17 @@
 # Projeto de Landing Page da Bala 7Belo, criado com auxilio do Angular e bootstrap.
 
-![header](https://github.com/MauroRoda/LP_7Belo/blob/main/src/assets/img/img_7belo/img/Desktop%20-%201.png)
+![header]([https://](https://github.com/MauroRoda/LP_7Belo/blob/main/src/assets/img/img_7belo/img/img_apresenta.png))
 
-> Status: Developing ⚠️
+> Status: Em desenvolvimento ⚠️
 
-## Metodo para desenvolvimento do projeto.
+## Metodo utilizado para desenvolvimento do projeto.
 
- 1° Criar a na 
+ 1° Criar todo a estrutura do design e textos da pagina na ferramenta Figma.
+ 2° Criar projeto no Angular.
+ 3° Criar a estrutura do codigo html.
+ 4° Estilizar a pagina com o CSS.
+ 5° 
+ 
 
 ## Code scaffolding
 
