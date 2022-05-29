@@ -8,6 +8,15 @@ body {
     font-family: "Montserrat", sans-serif;
   }
   
+  .estilo_p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+    color: #1B2558;
+  }
+
   .disp_testemunhos{
       display: flex;
       flex-direction: row;
@@ -15,7 +24,7 @@ body {
   }
 
   .mg-topo{
-    padding-top: 10rem ;
+    padding-top: 8rem ;
     text-align: center;
   }
   
@@ -39,7 +48,7 @@ body {
   }
   
   .container_fix{
-    margin-top: 190px;
+    margin-top: 230px;
   }
   
   .tamanho_prop{
